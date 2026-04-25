@@ -1,0 +1,1330 @@
+[
+  {
+    "task_id": "validation_drought_stressed_000",
+    "seed": 44182306,
+    "split": "validation",
+    "scenario_type": "drought_stressed",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.08,
+    "price_volatility": 1.1178,
+    "fertiliser_cost_multiplier": 1.05,
+    "irrigation_cost_multiplier": 1.04,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.7193,
+        "structure": 0.7397,
+        "ph": 0.9603,
+        "nutrient_balance": 0.7811
+      },
+      {
+        "organic_matter": 0.7626,
+        "structure": 0.7699,
+        "ph": 0.912,
+        "nutrient_balance": 0.7333
+      },
+      {
+        "organic_matter": 0.7634,
+        "structure": 0.8134,
+        "ph": 0.9569,
+        "nutrient_balance": 0.6458
+      },
+      {
+        "organic_matter": 0.7633,
+        "structure": 0.8296,
+        "ph": 0.9196,
+        "nutrient_balance": 0.857
+      }
+    ],
+    "initial_crop_by_plot": [
+      "barley",
+      "field_beans",
+      "wheat",
+      "cover_crop"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_drought_stressed_001",
+    "seed": 307455866,
+    "split": "validation",
+    "scenario_type": "drought_stressed",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.08,
+    "price_volatility": 1.1178,
+    "fertiliser_cost_multiplier": 1.05,
+    "irrigation_cost_multiplier": 1.04,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8225,
+        "structure": 0.687,
+        "ph": 0.8913,
+        "nutrient_balance": 0.835
+      },
+      {
+        "organic_matter": 0.6534,
+        "structure": 0.71,
+        "ph": 0.9028,
+        "nutrient_balance": 0.8482
+      },
+      {
+        "organic_matter": 0.6939,
+        "structure": 0.7634,
+        "ph": 0.9165,
+        "nutrient_balance": 0.857
+      },
+      {
+        "organic_matter": 0.8311,
+        "structure": 0.7625,
+        "ph": 0.8755,
+        "nutrient_balance": 0.795
+      }
+    ],
+    "initial_crop_by_plot": [
+      "wheat",
+      "barley",
+      "field_beans",
+      "cover_crop"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "rainfall_mm": 218.4,
+        "temperature_c": 7.08,
+        "rainfall_index": 1.6452,
+        "temperature_index": 1.3053,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_drought_stressed_002",
+    "seed": 549238815,
+    "split": "validation",
+    "scenario_type": "drought_stressed",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "dry",
+    "dry_bias": 0.08,
+    "price_volatility": 1.1178,
+    "fertiliser_cost_multiplier": 1.05,
+    "irrigation_cost_multiplier": 1.04,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.799,
+        "structure": 0.8,
+        "ph": 0.9445,
+        "nutrient_balance": 0.8439
+      },
+      {
+        "organic_matter": 0.8531,
+        "structure": 0.7088,
+        "ph": 0.929,
+        "nutrient_balance": 0.7773
+      },
+      {
+        "organic_matter": 0.8528,
+        "structure": 0.6857,
+        "ph": 0.918,
+        "nutrient_balance": 0.7508
+      },
+      {
+        "organic_matter": 0.7564,
+        "structure": 0.7926,
+        "ph": 0.8809,
+        "nutrient_balance": 0.7941
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "cover_crop",
+      "barley",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 2,
+        "rainfall_mm": 106.0,
+        "temperature_c": 14.21,
+        "rainfall_index": 0.6526,
+        "temperature_index": 1.1695,
+        "regime": "dry"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_drought_stressed_003",
+    "seed": 266663293,
+    "split": "validation",
+    "scenario_type": "drought_stressed",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0872,
+    "price_volatility": 1.1178,
+    "fertiliser_cost_multiplier": 1.05,
+    "irrigation_cost_multiplier": 1.04,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8374,
+        "structure": 0.766,
+        "ph": 0.8903,
+        "nutrient_balance": 0.8571
+      },
+      {
+        "organic_matter": 0.7313,
+        "structure": 0.6969,
+        "ph": 0.8847,
+        "nutrient_balance": 0.8059
+      },
+      {
+        "organic_matter": 0.8707,
+        "structure": 0.7248,
+        "ph": 0.9021,
+        "nutrient_balance": 0.846
+      },
+      {
+        "organic_matter": 0.8219,
+        "structure": 0.663,
+        "ph": 0.8043,
+        "nutrient_balance": 0.8523
+      }
+    ],
+    "initial_crop_by_plot": [
+      "cover_crop",
+      "barley",
+      "field_beans",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 2,
+        "rainfall_mm": 106.0,
+        "temperature_c": 14.21,
+        "rainfall_index": 0.6526,
+        "temperature_index": 1.1695,
+        "regime": "dry"
+      },
+      {
+        "year": 2025,
+        "quarter": 3,
+        "rainfall_mm": 168.4,
+        "temperature_c": 17.46,
+        "rainfall_index": 0.9783,
+        "temperature_index": 1.0544,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 4,
+        "rainfall_mm": 192.3,
+        "temperature_c": 9.37,
+        "rainfall_index": 1.1715,
+        "temperature_index": 1.1693,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_input_cost_shock_000",
+    "seed": 93343462,
+    "split": "validation",
+    "scenario_type": "input_cost_shock",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.1478,
+    "fertiliser_cost_multiplier": 1.32,
+    "irrigation_cost_multiplier": 1.1,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8292,
+        "structure": 0.8823,
+        "ph": 0.9472,
+        "nutrient_balance": 0.8592
+      },
+      {
+        "organic_matter": 0.8834,
+        "structure": 0.7668,
+        "ph": 0.8775,
+        "nutrient_balance": 0.8343
+      },
+      {
+        "organic_matter": 0.7938,
+        "structure": 0.7344,
+        "ph": 0.9533,
+        "nutrient_balance": 0.811
+      },
+      {
+        "organic_matter": 0.8359,
+        "structure": 0.7895,
+        "ph": 0.8619,
+        "nutrient_balance": 0.7654
+      }
+    ],
+    "initial_crop_by_plot": [
+      "barley",
+      "fallow",
+      "field_beans",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "rainfall_mm": 218.4,
+        "temperature_c": 7.08,
+        "rainfall_index": 1.6452,
+        "temperature_index": 1.3053,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_input_cost_shock_001",
+    "seed": 220124933,
+    "split": "validation",
+    "scenario_type": "input_cost_shock",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0077,
+    "price_volatility": 1.1478,
+    "fertiliser_cost_multiplier": 1.32,
+    "irrigation_cost_multiplier": 1.1,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8094,
+        "structure": 0.89,
+        "ph": 0.8375,
+        "nutrient_balance": 0.7465
+      },
+      {
+        "organic_matter": 0.848,
+        "structure": 0.8107,
+        "ph": 0.9143,
+        "nutrient_balance": 0.8525
+      },
+      {
+        "organic_matter": 0.9019,
+        "structure": 0.7463,
+        "ph": 0.9187,
+        "nutrient_balance": 0.9117
+      },
+      {
+        "organic_matter": 0.8063,
+        "structure": 0.8389,
+        "ph": 0.7838,
+        "nutrient_balance": 0.9029
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "wheat",
+      "fallow",
+      "barley"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 2,
+        "rainfall_mm": 106.0,
+        "temperature_c": 14.21,
+        "rainfall_index": 0.6526,
+        "temperature_index": 1.1695,
+        "regime": "dry"
+      },
+      {
+        "year": 2025,
+        "quarter": 3,
+        "rainfall_mm": 168.4,
+        "temperature_c": 17.46,
+        "rainfall_index": 0.9783,
+        "temperature_index": 1.0544,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_recovery_000",
+    "seed": 753353353,
+    "split": "validation",
+    "scenario_type": "recovery",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 0.96,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.7242,
+        "structure": 0.8367,
+        "ph": 0.8388,
+        "nutrient_balance": 0.7774
+      },
+      {
+        "organic_matter": 0.8019,
+        "structure": 0.6164,
+        "ph": 0.7848,
+        "nutrient_balance": 0.6899
+      },
+      {
+        "organic_matter": 0.6779,
+        "structure": 0.6961,
+        "ph": 0.9247,
+        "nutrient_balance": 0.7476
+      },
+      {
+        "organic_matter": 0.7331,
+        "structure": 0.7576,
+        "ph": 0.8857,
+        "nutrient_balance": 0.794
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "cover_crop",
+      "wheat",
+      "barley"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "rainfall_mm": 218.4,
+        "temperature_c": 7.08,
+        "rainfall_index": 1.6452,
+        "temperature_index": 1.3053,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_recovery_001",
+    "seed": 719391197,
+    "split": "validation",
+    "scenario_type": "recovery",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 0.96,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.7918,
+        "structure": 0.822,
+        "ph": 0.9552,
+        "nutrient_balance": 0.8645
+      },
+      {
+        "organic_matter": 0.6603,
+        "structure": 0.7607,
+        "ph": 0.8513,
+        "nutrient_balance": 0.8291
+      },
+      {
+        "organic_matter": 0.8699,
+        "structure": 0.8556,
+        "ph": 0.9211,
+        "nutrient_balance": 0.797
+      },
+      {
+        "organic_matter": 0.7528,
+        "structure": 0.6683,
+        "ph": 0.9295,
+        "nutrient_balance": 0.7882
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "wheat",
+      "barley",
+      "cover_crop"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 2,
+        "rainfall_mm": 106.0,
+        "temperature_c": 14.21,
+        "rainfall_index": 0.6526,
+        "temperature_index": 1.1695,
+        "regime": "dry"
+      },
+      {
+        "year": 2025,
+        "quarter": 3,
+        "rainfall_mm": 168.4,
+        "temperature_c": 17.46,
+        "rainfall_index": 0.9783,
+        "temperature_index": 1.0544,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 4,
+        "rainfall_mm": 192.3,
+        "temperature_c": 9.37,
+        "rainfall_index": 1.1715,
+        "temperature_index": 1.1693,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_000",
+    "seed": 794269873,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8729,
+        "structure": 0.8068,
+        "ph": 0.9147,
+        "nutrient_balance": 0.819
+      },
+      {
+        "organic_matter": 0.8372,
+        "structure": 0.824,
+        "ph": 0.9834,
+        "nutrient_balance": 0.8184
+      },
+      {
+        "organic_matter": 0.8199,
+        "structure": 0.8976,
+        "ph": 0.8056,
+        "nutrient_balance": 0.9112
+      },
+      {
+        "organic_matter": 0.941,
+        "structure": 0.7731,
+        "ph": 0.8503,
+        "nutrient_balance": 0.9244
+      }
+    ],
+    "initial_crop_by_plot": [
+      "barley",
+      "wheat",
+      "oilseed_rape",
+      "field_beans"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "rainfall_mm": 218.4,
+        "temperature_c": 7.08,
+        "rainfall_index": 1.6452,
+        "temperature_index": 1.3053,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_001",
+    "seed": 815257263,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8147,
+        "structure": 0.7891,
+        "ph": 0.8956,
+        "nutrient_balance": 0.9348
+      },
+      {
+        "organic_matter": 0.8731,
+        "structure": 0.9332,
+        "ph": 0.8715,
+        "nutrient_balance": 0.9504
+      },
+      {
+        "organic_matter": 0.8849,
+        "structure": 0.8498,
+        "ph": 0.8367,
+        "nutrient_balance": 0.8612
+      },
+      {
+        "organic_matter": 0.8537,
+        "structure": 0.8609,
+        "ph": 0.9255,
+        "nutrient_balance": 0.9578
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "barley",
+      "oilseed_rape",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_002",
+    "seed": 675640002,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8354,
+        "structure": 0.8611,
+        "ph": 0.8289,
+        "nutrient_balance": 0.9626
+      },
+      {
+        "organic_matter": 0.8214,
+        "structure": 0.8301,
+        "ph": 0.9154,
+        "nutrient_balance": 0.8154
+      },
+      {
+        "organic_matter": 0.8967,
+        "structure": 0.842,
+        "ph": 0.9086,
+        "nutrient_balance": 0.9139
+      },
+      {
+        "organic_matter": 0.8917,
+        "structure": 0.7521,
+        "ph": 0.883,
+        "nutrient_balance": 0.7228
+      }
+    ],
+    "initial_crop_by_plot": [
+      "oilseed_rape",
+      "field_beans",
+      "wheat",
+      "barley"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_003",
+    "seed": 53723141,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.8318,
+        "structure": 0.8087,
+        "ph": 0.8443,
+        "nutrient_balance": 0.8162
+      },
+      {
+        "organic_matter": 0.8401,
+        "structure": 0.8246,
+        "ph": 0.9254,
+        "nutrient_balance": 0.9121
+      },
+      {
+        "organic_matter": 0.8387,
+        "structure": 0.8809,
+        "ph": 0.9154,
+        "nutrient_balance": 0.8167
+      },
+      {
+        "organic_matter": 0.6744,
+        "structure": 0.8606,
+        "ph": 0.8847,
+        "nutrient_balance": 0.8785
+      }
+    ],
+    "initial_crop_by_plot": [
+      "oilseed_rape",
+      "barley",
+      "field_beans",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_004",
+    "seed": 60786949,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.9524,
+        "structure": 0.8808,
+        "ph": 0.8617,
+        "nutrient_balance": 0.8174
+      },
+      {
+        "organic_matter": 0.9177,
+        "structure": 0.7996,
+        "ph": 0.8331,
+        "nutrient_balance": 0.9203
+      },
+      {
+        "organic_matter": 0.9444,
+        "structure": 0.8988,
+        "ph": 0.9245,
+        "nutrient_balance": 0.7812
+      },
+      {
+        "organic_matter": 0.8455,
+        "structure": 0.9186,
+        "ph": 0.8777,
+        "nutrient_balance": 0.7913
+      }
+    ],
+    "initial_crop_by_plot": [
+      "oilseed_rape",
+      "wheat",
+      "barley",
+      "field_beans"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_005",
+    "seed": 631489550,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.9145,
+        "structure": 0.7867,
+        "ph": 0.8885,
+        "nutrient_balance": 0.8775
+      },
+      {
+        "organic_matter": 0.8973,
+        "structure": 0.8094,
+        "ph": 0.8615,
+        "nutrient_balance": 0.9079
+      },
+      {
+        "organic_matter": 0.8489,
+        "structure": 0.8289,
+        "ph": 0.8218,
+        "nutrient_balance": 0.8288
+      },
+      {
+        "organic_matter": 0.8673,
+        "structure": 0.9481,
+        "ph": 0.8992,
+        "nutrient_balance": 0.86
+      }
+    ],
+    "initial_crop_by_plot": [
+      "oilseed_rape",
+      "barley",
+      "wheat",
+      "field_beans"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_006",
+    "seed": 782814608,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.7151,
+        "structure": 0.8319,
+        "ph": 0.8514,
+        "nutrient_balance": 0.7163
+      },
+      {
+        "organic_matter": 0.9228,
+        "structure": 0.7936,
+        "ph": 0.8536,
+        "nutrient_balance": 0.8671
+      },
+      {
+        "organic_matter": 0.7707,
+        "structure": 0.7657,
+        "ph": 0.845,
+        "nutrient_balance": 0.9003
+      },
+      {
+        "organic_matter": 0.879,
+        "structure": 0.8172,
+        "ph": 0.8791,
+        "nutrient_balance": 0.8439
+      }
+    ],
+    "initial_crop_by_plot": [
+      "oilseed_rape",
+      "wheat",
+      "barley",
+      "field_beans"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "rainfall_mm": 120.6,
+        "temperature_c": 5.3,
+        "rainfall_index": 0.9085,
+        "temperature_index": 0.9773,
+        "regime": "normal"
+      }
+    ]
+  },
+  {
+    "task_id": "validation_standard_007",
+    "seed": 783741999,
+    "split": "validation",
+    "scenario_type": "standard",
+    "real_data_mode": true,
+    "starting_cash": 150000.0,
+    "initial_weather_regime": "normal",
+    "dry_bias": 0.0,
+    "price_volatility": 1.0678,
+    "fertiliser_cost_multiplier": 1.0,
+    "irrigation_cost_multiplier": 1.0,
+    "initial_soil_by_plot": [
+      {
+        "organic_matter": 0.896,
+        "structure": 0.9147,
+        "ph": 0.8862,
+        "nutrient_balance": 0.7547
+      },
+      {
+        "organic_matter": 0.8341,
+        "structure": 0.8735,
+        "ph": 0.8548,
+        "nutrient_balance": 0.8774
+      },
+      {
+        "organic_matter": 0.8539,
+        "structure": 0.8637,
+        "ph": 0.8721,
+        "nutrient_balance": 0.8553
+      },
+      {
+        "organic_matter": 0.8128,
+        "structure": 0.8224,
+        "ph": 0.8482,
+        "nutrient_balance": 0.9315
+      }
+    ],
+    "initial_crop_by_plot": [
+      "field_beans",
+      "oilseed_rape",
+      "barley",
+      "wheat"
+    ],
+    "recent_weather_context": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "rainfall_mm": 218.4,
+        "temperature_c": 7.08,
+        "rainfall_index": 1.6452,
+        "temperature_index": 1.3053,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "rainfall_mm": 200.8,
+        "temperature_c": 12.78,
+        "rainfall_index": 1.2362,
+        "temperature_index": 1.0524,
+        "regime": "normal"
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "rainfall_mm": 242.2,
+        "temperature_c": 16.96,
+        "rainfall_index": 1.407,
+        "temperature_index": 1.0239,
+        "regime": "wet"
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "rainfall_mm": 189.4,
+        "temperature_c": 8.92,
+        "rainfall_index": 1.1539,
+        "temperature_index": 1.1137,
+        "regime": "normal"
+      }
+    ]
+  }
+]

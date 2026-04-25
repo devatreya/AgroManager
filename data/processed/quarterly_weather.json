@@ -1,0 +1,895 @@
+{
+  "source": "Open-Meteo historical archive",
+  "location": {
+    "latitude": 52.2053,
+    "longitude": 0.1218
+  },
+  "records": [
+    {
+      "year": 2000,
+      "quarter": 1,
+      "rainfall_mm": 97.6,
+      "temperature_c": 6.2,
+      "rainfall_index": 0.7352,
+      "temperature_index": 1.1429,
+      "regime": "dry"
+    },
+    {
+      "year": 2000,
+      "quarter": 2,
+      "rainfall_mm": 235.9,
+      "temperature_c": 11.93,
+      "rainfall_index": 1.4523,
+      "temperature_index": 0.9821,
+      "regime": "wet"
+    },
+    {
+      "year": 2000,
+      "quarter": 3,
+      "rainfall_mm": 197.1,
+      "temperature_c": 16.01,
+      "rainfall_index": 1.145,
+      "temperature_index": 0.9666,
+      "regime": "normal"
+    },
+    {
+      "year": 2000,
+      "quarter": 4,
+      "rainfall_mm": 283.0,
+      "temperature_c": 7.82,
+      "rainfall_index": 1.7241,
+      "temperature_index": 0.976,
+      "regime": "wet"
+    },
+    {
+      "year": 2001,
+      "quarter": 1,
+      "rainfall_mm": 212.2,
+      "temperature_c": 4.32,
+      "rainfall_index": 1.5985,
+      "temperature_index": 0.7953,
+      "regime": "wet"
+    },
+    {
+      "year": 2001,
+      "quarter": 2,
+      "rainfall_mm": 162.7,
+      "temperature_c": 11.42,
+      "rainfall_index": 1.0016,
+      "temperature_index": 0.9404,
+      "regime": "normal"
+    },
+    {
+      "year": 2001,
+      "quarter": 3,
+      "rainfall_mm": 222.6,
+      "temperature_c": 16.23,
+      "rainfall_index": 1.2932,
+      "temperature_index": 0.9798,
+      "regime": "wet"
+    },
+    {
+      "year": 2001,
+      "quarter": 4,
+      "rainfall_mm": 134.4,
+      "temperature_c": 8.21,
+      "rainfall_index": 0.8188,
+      "temperature_index": 1.0244,
+      "regime": "normal"
+    },
+    {
+      "year": 2002,
+      "quarter": 1,
+      "rainfall_mm": 126.4,
+      "temperature_c": 6.93,
+      "rainfall_index": 0.9521,
+      "temperature_index": 1.2766,
+      "regime": "normal"
+    },
+    {
+      "year": 2002,
+      "quarter": 2,
+      "rainfall_mm": 137.3,
+      "temperature_c": 12.16,
+      "rainfall_index": 0.8453,
+      "temperature_index": 1.0013,
+      "regime": "normal"
+    },
+    {
+      "year": 2002,
+      "quarter": 3,
+      "rainfall_mm": 135.0,
+      "temperature_c": 16.29,
+      "rainfall_index": 0.7843,
+      "temperature_index": 0.9833,
+      "regime": "normal"
+    },
+    {
+      "year": 2002,
+      "quarter": 4,
+      "rainfall_mm": 249.7,
+      "temperature_c": 8.35,
+      "rainfall_index": 1.5212,
+      "temperature_index": 1.0418,
+      "regime": "wet"
+    },
+    {
+      "year": 2003,
+      "quarter": 1,
+      "rainfall_mm": 105.9,
+      "temperature_c": 5.17,
+      "rainfall_index": 0.7977,
+      "temperature_index": 0.9521,
+      "regime": "normal"
+    },
+    {
+      "year": 2003,
+      "quarter": 2,
+      "rainfall_mm": 179.8,
+      "temperature_c": 13.02,
+      "rainfall_index": 1.1069,
+      "temperature_index": 1.0714,
+      "regime": "normal"
+    },
+    {
+      "year": 2003,
+      "quarter": 3,
+      "rainfall_mm": 84.1,
+      "temperature_c": 17.57,
+      "rainfall_index": 0.4886,
+      "temperature_index": 1.0611,
+      "regime": "dry"
+    },
+    {
+      "year": 2003,
+      "quarter": 4,
+      "rainfall_mm": 160.3,
+      "temperature_c": 7.65,
+      "rainfall_index": 0.9766,
+      "temperature_index": 0.9552,
+      "regime": "normal"
+    },
+    {
+      "year": 2004,
+      "quarter": 1,
+      "rainfall_mm": 154.8,
+      "temperature_c": 5.64,
+      "rainfall_index": 1.1661,
+      "temperature_index": 1.0397,
+      "regime": "normal"
+    },
+    {
+      "year": 2004,
+      "quarter": 2,
+      "rainfall_mm": 164.9,
+      "temperature_c": 12.49,
+      "rainfall_index": 1.0152,
+      "temperature_index": 1.0281,
+      "regime": "normal"
+    },
+    {
+      "year": 2004,
+      "quarter": 3,
+      "rainfall_mm": 220.7,
+      "temperature_c": 16.67,
+      "rainfall_index": 1.2821,
+      "temperature_index": 1.0063,
+      "regime": "wet"
+    },
+    {
+      "year": 2004,
+      "quarter": 4,
+      "rainfall_mm": 122.3,
+      "temperature_c": 8.05,
+      "rainfall_index": 0.7451,
+      "temperature_index": 1.0044,
+      "regime": "dry"
+    },
+    {
+      "year": 2005,
+      "quarter": 1,
+      "rainfall_mm": 88.8,
+      "temperature_c": 5.67,
+      "rainfall_index": 0.6689,
+      "temperature_index": 1.0447,
+      "regime": "dry"
+    },
+    {
+      "year": 2005,
+      "quarter": 2,
+      "rainfall_mm": 148.2,
+      "temperature_c": 12.38,
+      "rainfall_index": 0.9124,
+      "temperature_index": 1.0193,
+      "regime": "normal"
+    },
+    {
+      "year": 2005,
+      "quarter": 3,
+      "rainfall_mm": 170.6,
+      "temperature_c": 16.48,
+      "rainfall_index": 0.9911,
+      "temperature_index": 0.9947,
+      "regime": "normal"
+    },
+    {
+      "year": 2005,
+      "quarter": 4,
+      "rainfall_mm": 105.3,
+      "temperature_c": 8.23,
+      "rainfall_index": 0.6415,
+      "temperature_index": 1.027,
+      "regime": "dry"
+    },
+    {
+      "year": 2006,
+      "quarter": 1,
+      "rainfall_mm": 96.9,
+      "temperature_c": 4.23,
+      "rainfall_index": 0.7299,
+      "temperature_index": 0.7789,
+      "regime": "dry"
+    },
+    {
+      "year": 2006,
+      "quarter": 2,
+      "rainfall_mm": 176.7,
+      "temperature_c": 12.38,
+      "rainfall_index": 1.0878,
+      "temperature_index": 1.0194,
+      "regime": "normal"
+    },
+    {
+      "year": 2006,
+      "quarter": 3,
+      "rainfall_mm": 186.1,
+      "temperature_c": 18.14,
+      "rainfall_index": 1.0811,
+      "temperature_index": 1.0951,
+      "regime": "normal"
+    },
+    {
+      "year": 2006,
+      "quarter": 4,
+      "rainfall_mm": 152.6,
+      "temperature_c": 9.65,
+      "rainfall_index": 0.9297,
+      "temperature_index": 1.2046,
+      "regime": "normal"
+    },
+    {
+      "year": 2007,
+      "quarter": 1,
+      "rainfall_mm": 158.1,
+      "temperature_c": 6.81,
+      "rainfall_index": 1.1909,
+      "temperature_index": 1.2549,
+      "regime": "normal"
+    },
+    {
+      "year": 2007,
+      "quarter": 2,
+      "rainfall_mm": 239.9,
+      "temperature_c": 12.95,
+      "rainfall_index": 1.4769,
+      "temperature_index": 1.0658,
+      "regime": "wet"
+    },
+    {
+      "year": 2007,
+      "quarter": 3,
+      "rainfall_mm": 153.6,
+      "temperature_c": 15.42,
+      "rainfall_index": 0.8923,
+      "temperature_index": 0.9309,
+      "regime": "normal"
+    },
+    {
+      "year": 2007,
+      "quarter": 4,
+      "rainfall_mm": 129.8,
+      "temperature_c": 7.83,
+      "rainfall_index": 0.7908,
+      "temperature_index": 0.9768,
+      "regime": "normal"
+    },
+    {
+      "year": 2008,
+      "quarter": 1,
+      "rainfall_mm": 157.3,
+      "temperature_c": 6.01,
+      "rainfall_index": 1.1849,
+      "temperature_index": 1.1077,
+      "regime": "normal"
+    },
+    {
+      "year": 2008,
+      "quarter": 2,
+      "rainfall_mm": 181.3,
+      "temperature_c": 12.09,
+      "rainfall_index": 1.1161,
+      "temperature_index": 0.9952,
+      "regime": "normal"
+    },
+    {
+      "year": 2008,
+      "quarter": 3,
+      "rainfall_mm": 211.7,
+      "temperature_c": 15.93,
+      "rainfall_index": 1.2298,
+      "temperature_index": 0.9616,
+      "regime": "normal"
+    },
+    {
+      "year": 2008,
+      "quarter": 4,
+      "rainfall_mm": 141.1,
+      "temperature_c": 7.04,
+      "rainfall_index": 0.8596,
+      "temperature_index": 0.8786,
+      "regime": "normal"
+    },
+    {
+      "year": 2009,
+      "quarter": 1,
+      "rainfall_mm": 130.8,
+      "temperature_c": 4.38,
+      "rainfall_index": 0.9853,
+      "temperature_index": 0.8064,
+      "regime": "normal"
+    },
+    {
+      "year": 2009,
+      "quarter": 2,
+      "rainfall_mm": 125.4,
+      "temperature_c": 12.57,
+      "rainfall_index": 0.772,
+      "temperature_index": 1.0347,
+      "regime": "dry"
+    },
+    {
+      "year": 2009,
+      "quarter": 3,
+      "rainfall_mm": 148.6,
+      "temperature_c": 16.48,
+      "rainfall_index": 0.8633,
+      "temperature_index": 0.9949,
+      "regime": "normal"
+    },
+    {
+      "year": 2009,
+      "quarter": 4,
+      "rainfall_mm": 161.0,
+      "temperature_c": 8.02,
+      "rainfall_index": 0.9809,
+      "temperature_index": 1.0015,
+      "regime": "normal"
+    },
+    {
+      "year": 2010,
+      "quarter": 1,
+      "rainfall_mm": 145.5,
+      "temperature_c": 3.45,
+      "rainfall_index": 1.096,
+      "temperature_index": 0.6365,
+      "regime": "normal"
+    },
+    {
+      "year": 2010,
+      "quarter": 2,
+      "rainfall_mm": 90.3,
+      "temperature_c": 11.85,
+      "rainfall_index": 0.5559,
+      "temperature_index": 0.9752,
+      "regime": "dry"
+    },
+    {
+      "year": 2010,
+      "quarter": 3,
+      "rainfall_mm": 203.5,
+      "temperature_c": 16.3,
+      "rainfall_index": 1.1822,
+      "temperature_index": 0.9844,
+      "regime": "normal"
+    },
+    {
+      "year": 2010,
+      "quarter": 4,
+      "rainfall_mm": 121.1,
+      "temperature_c": 5.44,
+      "rainfall_index": 0.7378,
+      "temperature_index": 0.6785,
+      "regime": "dry"
+    },
+    {
+      "year": 2011,
+      "quarter": 1,
+      "rainfall_mm": 96.6,
+      "temperature_c": 5.75,
+      "rainfall_index": 0.7277,
+      "temperature_index": 1.0598,
+      "regime": "dry"
+    },
+    {
+      "year": 2011,
+      "quarter": 2,
+      "rainfall_mm": 83.2,
+      "temperature_c": 13.35,
+      "rainfall_index": 0.5122,
+      "temperature_index": 1.099,
+      "regime": "dry"
+    },
+    {
+      "year": 2011,
+      "quarter": 3,
+      "rainfall_mm": 139.4,
+      "temperature_c": 15.9,
+      "rainfall_index": 0.8098,
+      "temperature_index": 0.9599,
+      "regime": "normal"
+    },
+    {
+      "year": 2011,
+      "quarter": 4,
+      "rainfall_mm": 101.8,
+      "temperature_c": 9.72,
+      "rainfall_index": 0.6202,
+      "temperature_index": 1.2132,
+      "regime": "dry"
+    },
+    {
+      "year": 2012,
+      "quarter": 1,
+      "rainfall_mm": 82.0,
+      "temperature_c": 5.7,
+      "rainfall_index": 0.6177,
+      "temperature_index": 1.0508,
+      "regime": "dry"
+    },
+    {
+      "year": 2012,
+      "quarter": 2,
+      "rainfall_mm": 297.5,
+      "temperature_c": 11.11,
+      "rainfall_index": 1.8315,
+      "temperature_index": 0.9144,
+      "regime": "wet"
+    },
+    {
+      "year": 2012,
+      "quarter": 3,
+      "rainfall_mm": 232.8,
+      "temperature_c": 15.61,
+      "rainfall_index": 1.3524,
+      "temperature_index": 0.9427,
+      "regime": "wet"
+    },
+    {
+      "year": 2012,
+      "quarter": 4,
+      "rainfall_mm": 247.5,
+      "temperature_c": 7.24,
+      "rainfall_index": 1.5078,
+      "temperature_index": 0.9038,
+      "regime": "wet"
+    },
+    {
+      "year": 2013,
+      "quarter": 1,
+      "rainfall_mm": 119.5,
+      "temperature_c": 2.81,
+      "rainfall_index": 0.9002,
+      "temperature_index": 0.5181,
+      "regime": "normal"
+    },
+    {
+      "year": 2013,
+      "quarter": 2,
+      "rainfall_mm": 113.9,
+      "temperature_c": 10.68,
+      "rainfall_index": 0.7012,
+      "temperature_index": 0.8792,
+      "regime": "dry"
+    },
+    {
+      "year": 2013,
+      "quarter": 3,
+      "rainfall_mm": 161.8,
+      "temperature_c": 17.08,
+      "rainfall_index": 0.94,
+      "temperature_index": 1.0314,
+      "regime": "normal"
+    },
+    {
+      "year": 2013,
+      "quarter": 4,
+      "rainfall_mm": 184.1,
+      "temperature_c": 8.51,
+      "rainfall_index": 1.1216,
+      "temperature_index": 1.0616,
+      "regime": "normal"
+    },
+    {
+      "year": 2014,
+      "quarter": 1,
+      "rainfall_mm": 193.4,
+      "temperature_c": 6.6,
+      "rainfall_index": 1.4568,
+      "temperature_index": 1.2158,
+      "regime": "wet"
+    },
+    {
+      "year": 2014,
+      "quarter": 2,
+      "rainfall_mm": 174.3,
+      "temperature_c": 12.85,
+      "rainfall_index": 1.073,
+      "temperature_index": 1.0574,
+      "regime": "normal"
+    },
+    {
+      "year": 2014,
+      "quarter": 3,
+      "rainfall_mm": 178.0,
+      "temperature_c": 16.66,
+      "rainfall_index": 1.0341,
+      "temperature_index": 1.0061,
+      "regime": "normal"
+    },
+    {
+      "year": 2014,
+      "quarter": 4,
+      "rainfall_mm": 188.6,
+      "temperature_c": 9.03,
+      "rainfall_index": 1.149,
+      "temperature_index": 1.1276,
+      "regime": "normal"
+    },
+    {
+      "year": 2015,
+      "quarter": 1,
+      "rainfall_mm": 115.2,
+      "temperature_c": 4.88,
+      "rainfall_index": 0.8678,
+      "temperature_index": 0.8993,
+      "regime": "normal"
+    },
+    {
+      "year": 2015,
+      "quarter": 2,
+      "rainfall_mm": 108.4,
+      "temperature_c": 11.74,
+      "rainfall_index": 0.6673,
+      "temperature_index": 0.9666,
+      "regime": "dry"
+    },
+    {
+      "year": 2015,
+      "quarter": 3,
+      "rainfall_mm": 229.1,
+      "temperature_c": 15.85,
+      "rainfall_index": 1.3309,
+      "temperature_index": 0.957,
+      "regime": "wet"
+    },
+    {
+      "year": 2015,
+      "quarter": 4,
+      "rainfall_mm": 178.1,
+      "temperature_c": 10.51,
+      "rainfall_index": 1.085,
+      "temperature_index": 1.3116,
+      "regime": "normal"
+    },
+    {
+      "year": 2016,
+      "quarter": 1,
+      "rainfall_mm": 163.7,
+      "temperature_c": 5.34,
+      "rainfall_index": 1.2331,
+      "temperature_index": 0.9838,
+      "regime": "normal"
+    },
+    {
+      "year": 2016,
+      "quarter": 2,
+      "rainfall_mm": 214.5,
+      "temperature_c": 11.69,
+      "rainfall_index": 1.3205,
+      "temperature_index": 0.9622,
+      "regime": "wet"
+    },
+    {
+      "year": 2016,
+      "quarter": 3,
+      "rainfall_mm": 129.4,
+      "temperature_c": 17.87,
+      "rainfall_index": 0.7517,
+      "temperature_index": 1.0789,
+      "regime": "dry"
+    },
+    {
+      "year": 2016,
+      "quarter": 4,
+      "rainfall_mm": 89.8,
+      "temperature_c": 8.06,
+      "rainfall_index": 0.5471,
+      "temperature_index": 1.0058,
+      "regime": "dry"
+    },
+    {
+      "year": 2017,
+      "quarter": 1,
+      "rainfall_mm": 134.2,
+      "temperature_c": 6.09,
+      "rainfall_index": 1.0109,
+      "temperature_index": 1.1222,
+      "regime": "normal"
+    },
+    {
+      "year": 2017,
+      "quarter": 2,
+      "rainfall_mm": 185.6,
+      "temperature_c": 13.36,
+      "rainfall_index": 1.1426,
+      "temperature_index": 1.1001,
+      "regime": "normal"
+    },
+    {
+      "year": 2017,
+      "quarter": 3,
+      "rainfall_mm": 205.0,
+      "temperature_c": 16.06,
+      "rainfall_index": 1.1909,
+      "temperature_index": 0.9699,
+      "regime": "normal"
+    },
+    {
+      "year": 2017,
+      "quarter": 4,
+      "rainfall_mm": 127.5,
+      "temperature_c": 8.33,
+      "rainfall_index": 0.7768,
+      "temperature_index": 1.0397,
+      "regime": "dry"
+    },
+    {
+      "year": 2018,
+      "quarter": 1,
+      "rainfall_mm": 176.0,
+      "temperature_c": 4.4,
+      "rainfall_index": 1.3258,
+      "temperature_index": 0.8111,
+      "regime": "wet"
+    },
+    {
+      "year": 2018,
+      "quarter": 2,
+      "rainfall_mm": 160.7,
+      "temperature_c": 13.46,
+      "rainfall_index": 0.9893,
+      "temperature_index": 1.1081,
+      "regime": "normal"
+    },
+    {
+      "year": 2018,
+      "quarter": 3,
+      "rainfall_mm": 127.4,
+      "temperature_c": 17.81,
+      "rainfall_index": 0.7401,
+      "temperature_index": 1.0753,
+      "regime": "dry"
+    },
+    {
+      "year": 2018,
+      "quarter": 4,
+      "rainfall_mm": 133.7,
+      "temperature_c": 8.99,
+      "rainfall_index": 0.8145,
+      "temperature_index": 1.1218,
+      "regime": "normal"
+    },
+    {
+      "year": 2019,
+      "quarter": 1,
+      "rainfall_mm": 111.7,
+      "temperature_c": 6.25,
+      "rainfall_index": 0.8414,
+      "temperature_index": 1.1511,
+      "regime": "normal"
+    },
+    {
+      "year": 2019,
+      "quarter": 2,
+      "rainfall_mm": 167.0,
+      "temperature_c": 12.04,
+      "rainfall_index": 1.0281,
+      "temperature_index": 0.9912,
+      "regime": "normal"
+    },
+    {
+      "year": 2019,
+      "quarter": 3,
+      "rainfall_mm": 205.8,
+      "temperature_c": 17.48,
+      "rainfall_index": 1.1956,
+      "temperature_index": 1.0557,
+      "regime": "normal"
+    },
+    {
+      "year": 2019,
+      "quarter": 4,
+      "rainfall_mm": 262.6,
+      "temperature_c": 7.89,
+      "rainfall_index": 1.5998,
+      "temperature_index": 0.9842,
+      "regime": "wet"
+    },
+    {
+      "year": 2020,
+      "quarter": 1,
+      "rainfall_mm": 162.9,
+      "temperature_c": 6.73,
+      "rainfall_index": 1.2271,
+      "temperature_index": 1.2393,
+      "regime": "normal"
+    },
+    {
+      "year": 2020,
+      "quarter": 2,
+      "rainfall_mm": 115.2,
+      "temperature_c": 13.38,
+      "rainfall_index": 0.7092,
+      "temperature_index": 1.1016,
+      "regime": "dry"
+    },
+    {
+      "year": 2020,
+      "quarter": 3,
+      "rainfall_mm": 187.2,
+      "temperature_c": 17.17,
+      "rainfall_index": 1.0875,
+      "temperature_index": 1.0367,
+      "regime": "normal"
+    },
+    {
+      "year": 2020,
+      "quarter": 4,
+      "rainfall_mm": 265.6,
+      "temperature_c": 8.44,
+      "rainfall_index": 1.6181,
+      "temperature_index": 1.0533,
+      "regime": "wet"
+    },
+    {
+      "year": 2021,
+      "quarter": 1,
+      "rainfall_mm": 164.9,
+      "temperature_c": 5.08,
+      "rainfall_index": 1.2422,
+      "temperature_index": 0.9351,
+      "regime": "wet"
+    },
+    {
+      "year": 2021,
+      "quarter": 2,
+      "rainfall_mm": 174.1,
+      "temperature_c": 11.18,
+      "rainfall_index": 1.0718,
+      "temperature_index": 0.92,
+      "regime": "normal"
+    },
+    {
+      "year": 2021,
+      "quarter": 3,
+      "rainfall_mm": 157.9,
+      "temperature_c": 16.96,
+      "rainfall_index": 0.9173,
+      "temperature_index": 1.0242,
+      "regime": "normal"
+    },
+    {
+      "year": 2021,
+      "quarter": 4,
+      "rainfall_mm": 165.1,
+      "temperature_c": 8.99,
+      "rainfall_index": 1.0058,
+      "temperature_index": 1.1222,
+      "regime": "normal"
+    },
+    {
+      "year": 2022,
+      "quarter": 1,
+      "rainfall_mm": 128.0,
+      "temperature_c": 6.48,
+      "rainfall_index": 0.9642,
+      "temperature_index": 1.1945,
+      "regime": "normal"
+    },
+    {
+      "year": 2022,
+      "quarter": 2,
+      "rainfall_mm": 115.8,
+      "temperature_c": 13.02,
+      "rainfall_index": 0.7129,
+      "temperature_index": 1.0716,
+      "regime": "dry"
+    },
+    {
+      "year": 2022,
+      "quarter": 3,
+      "rainfall_mm": 96.7,
+      "temperature_c": 18.46,
+      "rainfall_index": 0.5618,
+      "temperature_index": 1.1145,
+      "regime": "dry"
+    },
+    {
+      "year": 2022,
+      "quarter": 4,
+      "rainfall_mm": 206.1,
+      "temperature_c": 9.0,
+      "rainfall_index": 1.2556,
+      "temperature_index": 1.1232,
+      "regime": "normal"
+    },
+    {
+      "year": 2023,
+      "quarter": 1,
+      "rainfall_mm": 151.6,
+      "temperature_c": 6.02,
+      "rainfall_index": 1.142,
+      "temperature_index": 1.1091,
+      "regime": "normal"
+    },
+    {
+      "year": 2023,
+      "quarter": 2,
+      "rainfall_mm": 149.1,
+      "temperature_c": 12.9,
+      "rainfall_index": 0.9179,
+      "temperature_index": 1.0619,
+      "regime": "normal"
+    },
+    {
+      "year": 2023,
+      "quarter": 3,
+      "rainfall_mm": 243.2,
+      "temperature_c": 17.48,
+      "rainfall_index": 1.4128,
+      "temperature_index": 1.0556,
+      "regime": "wet"
+    },
+    {
+      "year": 2023,
+      "quarter": 4,
+      "rainfall_mm": 246.5,
+      "temperature_c": 9.16,
+      "rainfall_index": 1.5017,
+      "temperature_index": 1.1438,
+      "regime": "wet"
+    }
+  ],
+  "climate_normals": [
+    {
+      "quarter": 1,
+      "rainfall_mm": 132.75,
+      "temperature_c": 5.43
+    },
+    {
+      "quarter": 2,
+      "rainfall_mm": 162.44,
+      "temperature_c": 12.15
+    },
+    {
+      "quarter": 3,
+      "rainfall_mm": 172.14,
+      "temperature_c": 16.56
+    },
+    {
+      "quarter": 4,
+      "rainfall_mm": 164.14,
+      "temperature_c": 8.01
+    }
+  ]
+}

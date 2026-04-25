@@ -1,0 +1,33 @@
+{
+  "source": "Open-Meteo historical archive",
+  "location": {
+    "latitude": 52.2053,
+    "longitude": 0.1218
+  },
+  "baseline_years": [
+    1991,
+    2020
+  ],
+  "quarters": [
+    {
+      "quarter": 1,
+      "rainfall_mm": 132.75,
+      "temperature_c": 5.43
+    },
+    {
+      "quarter": 2,
+      "rainfall_mm": 162.44,
+      "temperature_c": 12.15
+    },
+    {
+      "quarter": 3,
+      "rainfall_mm": 172.14,
+      "temperature_c": 16.56
+    },
+    {
+      "quarter": 4,
+      "rainfall_mm": 164.14,
+      "temperature_c": 8.01
+    }
+  ]
+}

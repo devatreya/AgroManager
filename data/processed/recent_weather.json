@@ -1,0 +1,81 @@
+{
+  "source": "Open-Meteo historical archive",
+  "location": {
+    "latitude": 52.2053,
+    "longitude": 0.1218
+  },
+  "records": [
+    {
+      "year": 2024,
+      "quarter": 1,
+      "rainfall_mm": 218.4,
+      "temperature_c": 7.08,
+      "rainfall_index": 1.6452,
+      "temperature_index": 1.3053,
+      "regime": "wet"
+    },
+    {
+      "year": 2024,
+      "quarter": 2,
+      "rainfall_mm": 200.8,
+      "temperature_c": 12.78,
+      "rainfall_index": 1.2362,
+      "temperature_index": 1.0524,
+      "regime": "normal"
+    },
+    {
+      "year": 2024,
+      "quarter": 3,
+      "rainfall_mm": 242.2,
+      "temperature_c": 16.96,
+      "rainfall_index": 1.407,
+      "temperature_index": 1.0239,
+      "regime": "wet"
+    },
+    {
+      "year": 2024,
+      "quarter": 4,
+      "rainfall_mm": 189.4,
+      "temperature_c": 8.92,
+      "rainfall_index": 1.1539,
+      "temperature_index": 1.1137,
+      "regime": "normal"
+    },
+    {
+      "year": 2025,
+      "quarter": 1,
+      "rainfall_mm": 120.6,
+      "temperature_c": 5.3,
+      "rainfall_index": 0.9085,
+      "temperature_index": 0.9773,
+      "regime": "normal"
+    },
+    {
+      "year": 2025,
+      "quarter": 2,
+      "rainfall_mm": 106.0,
+      "temperature_c": 14.21,
+      "rainfall_index": 0.6526,
+      "temperature_index": 1.1695,
+      "regime": "dry"
+    },
+    {
+      "year": 2025,
+      "quarter": 3,
+      "rainfall_mm": 168.4,
+      "temperature_c": 17.46,
+      "rainfall_index": 0.9783,
+      "temperature_index": 1.0544,
+      "regime": "normal"
+    },
+    {
+      "year": 2025,
+      "quarter": 4,
+      "rainfall_mm": 192.3,
+      "temperature_c": 9.37,
+      "rainfall_index": 1.1715,
+      "temperature_index": 1.1693,
+      "regime": "normal"
+    }
+  ]
+}

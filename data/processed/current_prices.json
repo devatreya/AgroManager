@@ -1,0 +1,132 @@
+{
+  "source": {
+    "legacy": "https://assets.publishing.service.gov.uk/media/646e1646ab40bf00101969c9/API-monthlydataset-25apr23.ods",
+    "modern": "https://assets.publishing.service.gov.uk/media/69c257847e02b81c0d1c76e8/API_20260326.csv"
+  },
+  "as_of_year": 2025,
+  "as_of_quarter": 4,
+  "crop_price_multiplier": {
+    "wheat": 1.0253,
+    "barley": 1.1248,
+    "oilseed_rape": 1.2258,
+    "field_beans": 0.9817,
+    "cover_crop": 1.0,
+    "fallow": 1.0
+  },
+  "fertiliser_price_multiplier": 1.7283,
+  "capital_price_multiplier": 1.3485,
+  "recent_records": [
+    {
+      "year": 2024,
+      "quarter": 1,
+      "crop_price_multiplier": {
+        "wheat": 1.099,
+        "barley": 1.3689,
+        "oilseed_rape": 1.0416,
+        "field_beans": 1.1408,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.6048,
+      "capital_price_multiplier": 1.2862
+    },
+    {
+      "year": 2024,
+      "quarter": 2,
+      "crop_price_multiplier": {
+        "wheat": 1.2115,
+        "barley": 1.4446,
+        "oilseed_rape": 1.1206,
+        "field_beans": 1.2846,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.5428,
+      "capital_price_multiplier": 1.3007
+    },
+    {
+      "year": 2024,
+      "quarter": 3,
+      "crop_price_multiplier": {
+        "wheat": 1.1488,
+        "barley": 1.2887,
+        "oilseed_rape": 1.1469,
+        "field_beans": 1.1092,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.4922,
+      "capital_price_multiplier": 1.3317
+    },
+    {
+      "year": 2024,
+      "quarter": 4,
+      "crop_price_multiplier": {
+        "wheat": 1.143,
+        "barley": 1.2103,
+        "oilseed_rape": 1.2459,
+        "field_beans": 1.0341,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.4924,
+      "capital_price_multiplier": 1.3317
+    },
+    {
+      "year": 2025,
+      "quarter": 1,
+      "crop_price_multiplier": {
+        "wheat": 1.126,
+        "barley": 1.2227,
+        "oilseed_rape": 1.2689,
+        "field_beans": 1.022,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.6638,
+      "capital_price_multiplier": 1.3346
+    },
+    {
+      "year": 2025,
+      "quarter": 2,
+      "crop_price_multiplier": {
+        "wheat": 1.0346,
+        "barley": 1.1911,
+        "oilseed_rape": 1.3283,
+        "field_beans": 1.049,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.7098,
+      "capital_price_multiplier": 1.3412
+    },
+    {
+      "year": 2025,
+      "quarter": 3,
+      "crop_price_multiplier": {
+        "wheat": 1.0251,
+        "barley": 1.1057,
+        "oilseed_rape": 1.1939,
+        "field_beans": 1.0147,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.756,
+      "capital_price_multiplier": 1.3446
+    },
+    {
+      "year": 2025,
+      "quarter": 4,
+      "crop_price_multiplier": {
+        "wheat": 1.0253,
+        "barley": 1.1248,
+        "oilseed_rape": 1.2258,
+        "field_beans": 0.9817,
+        "cover_crop": 1.0,
+        "fallow": 1.0
+      },
+      "fertiliser_price_multiplier": 1.7283,
+      "capital_price_multiplier": 1.3485
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+openreward==0.1.105
+modal==1.4.2
+openai==2.32.0
+requests==2.33.1
+certifi==2026.4.22
+pandas==3.0.2
+odfpy==1.4.1
+numpy==2.4.4
+packaging==26.2
+uvicorn==0.46.0
+pydantic==2.13.3
+pytest==9.0.3
