@@ -11,6 +11,7 @@ venv/
 artifacts/
 eval/results/
 eval/trajectories/
+training/*.json
 training/*.tmp
 *.egg-info/
 .mypy_cache/

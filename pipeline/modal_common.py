@@ -10,15 +10,35 @@ from config import MODAL_ENV, MODAL_VOLUME_MOUNTS, MODAL_VOLUME_NAMES, PROJECT_N
 
 
 REPO_ROOT = project_root()
+MODAL_IGNORE_PATTERNS = [
+    ".git",
+    ".venv",
+    ".venv312",
+    ".pytest_cache",
+    "__pycache__",
+    "eval/results",
+    "eval/trajectories",
+    "training",
+]
 
 
 def build_image() -> modal.Image:
     return (
-        modal.Image.debian_slim(python_version="3.12")
+        modal.Image.from_registry(
+            "nvidia/cuda:12.4.0-devel-ubuntu22.04",
+            add_python="3.12",
+        )
+        .entrypoint([])
         .apt_install("git", "procps")
+        .add_local_file(str(REPO_ROOT / "requirements.txt"), "/root/project/requirements.txt", copy=True)
         .add_local_file(str(REPO_ROOT / "requirements.modal.txt"), "/root/project/requirements.modal.txt", copy=True)
         .run_commands("pip install -r /root/project/requirements.modal.txt")
-        .add_local_dir(str(REPO_ROOT), "/root/project", copy=True)
+        .add_local_dir(
+            str(REPO_ROOT),
+            "/root/project",
+            copy=True,
+            ignore=MODAL_IGNORE_PATTERNS,
+        )
         .env(MODAL_ENV)
     )
 

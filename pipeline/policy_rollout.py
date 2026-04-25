@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import json
 from typing import Any
 
@@ -59,15 +60,22 @@ async def run_policy_rollout(
     ) as session:
         transcript = CompactToolTranscript()
         trajectory = {
+            "task_id": task_id,
+            "split": split,
             "task_spec": dict(session.task.task_spec),
             "steps": [],
             "final_state": None,
             "terminal_score": 0.0,
+            "terminal_cash": 0.0,
+            "completed": False,
             "ever_bankrupt": False,
             "quarters_completed": 0,
             "total_reward": 0.0,
             "total_pnl": 0.0,
             "mean_final_soil": 0.0,
+            "tool_calls": 0,
+            "invalid_tool_calls": 0,
+            "full_tool_interaction_history": [],
             "baseline_name": baseline_name,
         }
         conversation: list[dict[str, Any]] = []
@@ -95,6 +103,21 @@ async def run_policy_rollout(
                 summary = transcript.record(result)
                 read_results[tool_name] = result
                 quarter_step["reads"][tool_name] = summary
+                trajectory["tool_calls"] += 1
+                trajectory["full_tool_interaction_history"].append(
+                    {
+                        "quarter": quarter_number,
+                        "tool_name": tool_name,
+                        "payload": copy.deepcopy(payload),
+                        "summary": summary,
+                        "text": result.text,
+                        "reward": result.reward,
+                        "finished": result.finished,
+                        "metadata": copy.deepcopy(result.metadata),
+                        "state": copy.deepcopy(result.state),
+                        "episode_metrics": copy.deepcopy(result.episode_metrics),
+                    }
+                )
 
                 if capture_conversation:
                     call_id = f"{task_id}_{quarter_number}_{tool_name}"
@@ -118,6 +141,21 @@ async def run_policy_rollout(
             quarter_step["terminal_score"] = result_payload.get("terminal_score", 0.0)
             quarter_step["finished"] = commit_result.finished
             trajectory["steps"].append(quarter_step)
+            trajectory["tool_calls"] += 1
+            trajectory["full_tool_interaction_history"].append(
+                {
+                    "quarter": quarter_number,
+                    "tool_name": COMMIT_TOOL_NAME,
+                    "payload": copy.deepcopy(commit_payload),
+                    "summary": commit_summary,
+                    "text": commit_result.text,
+                    "reward": commit_result.reward,
+                    "finished": commit_result.finished,
+                    "metadata": copy.deepcopy(commit_result.metadata),
+                    "state": copy.deepcopy(commit_result.state),
+                    "episode_metrics": copy.deepcopy(commit_result.episode_metrics),
+                }
+            )
 
             if capture_conversation:
                 call_id = f"{task_id}_{quarter_number}_{COMMIT_TOOL_NAME}"
@@ -150,6 +188,10 @@ async def run_policy_rollout(
         final_metrics = session.last_episode_metrics or {}
         trajectory["final_state"] = final_state
         trajectory["terminal_score"] = float(final_metrics.get("terminal_score", 0.0))
+        trajectory["terminal_cash"] = float(
+            final_metrics.get("ending_cash", final_state.get("cash", 0.0) or 0.0)
+        )
+        trajectory["completed"] = bool(final_metrics.get("completed_all_quarters", False))
         trajectory["ever_bankrupt"] = bool(final_metrics.get("ever_bankrupt", False))
         trajectory["quarters_completed"] = int(final_metrics.get("quarters_completed", 0))
         trajectory["mean_final_soil"] = float(final_metrics.get("mean_final_soil", 0.0))

@@ -1,4 +1,6 @@
--r requirements.txt
+openreward==0.1.105
+modal==1.4.2
+certifi==2026.4.22
 openpipe-art[backend]==0.5.17
 wandb==0.25.0
 peft==0.18.0

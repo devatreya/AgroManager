@@ -32,8 +32,8 @@ python scripts/test_deployed_env.py --openreward-env-id devatreya/AgroManager
 Run hosted baselines:
 
 ```bash
-python eval/run_baselines.py --split train --openreward-env-id devatreya/AgroManager
-python eval/run_baselines.py --split validation --openreward-env-id devatreya/AgroManager
+python eval/run_baselines.py --split train --capture-conversation --openreward-env-id devatreya/AgroManager
+python eval/run_baselines.py --split validation --capture-conversation --openreward-env-id devatreya/AgroManager
 ```
 
 Prepare SFT data from hosted rollouts:

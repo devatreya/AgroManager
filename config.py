@@ -220,6 +220,7 @@ MODAL_ENV = {
     "HF_HOME": MODAL_VOLUME_MOUNTS["hf_cache"],
     "WANDB_DIR": f"{MODAL_VOLUME_MOUNTS['results']}/wandb",
     "TOKENIZERS_PARALLELISM": "false",
+    "VLLM_WORKER_MULTIPROC_METHOD": "spawn",
 }
 
 REQUIRED_PROCESSED_FILES = (

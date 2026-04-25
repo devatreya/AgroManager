@@ -147,6 +147,8 @@ async def rollout_with_inferencer(
     commit_count = 0
     tool_call_count = 0
     invalid_tool_calls = 0
+    total_reward = 0.0
+    total_pnl = 0.0
     last_tool_name: str | None = None
     current_quarter = 1
     next_tool_hint = DEFAULT_READ_TOOL_SEQUENCE[0]
@@ -219,6 +221,9 @@ async def rollout_with_inferencer(
                 current_quarter = int((session.last_state or {}).get("quarter", current_quarter))
                 result = await session.call_tool(response.tool_name, response.arguments)
                 summary = transcript.record(result)
+                total_reward += float(result.reward or 0.0)
+                if response.tool_name == COMMIT_TOOL_NAME:
+                    total_pnl += float(result.metadata.get("result", {}).get("pnl", 0.0))
 
                 tool_message = _tool_message(response.tool_name, call_id, summary)
                 if art is not None:
@@ -241,10 +246,14 @@ async def rollout_with_inferencer(
                     next_tool_hint = DEFAULT_READ_TOOL_SEQUENCE[0]
 
             metrics = {
+                "task_id": task_id,
+                "split": split,
                 "tool_calls": tool_call_count,
                 "quarter_commits": commit_count,
                 "commit_attempts": commit_count,
                 "invalid_tool_calls": invalid_tool_calls,
+                "total_reward": total_reward,
+                "total_pnl": total_pnl,
                 "termination_reason": termination_reason,
                 "last_tool_name": last_tool_name,
             }

@@ -29,6 +29,28 @@ def summarize(trajectories: list[dict]) -> dict:
     }
 
 
+def per_task_metrics(trajectories: list[dict]) -> list[dict]:
+    metrics = []
+    for trajectory in trajectories:
+        metrics.append(
+            {
+                "task_id": trajectory["task_id"],
+                "split": trajectory["split"],
+                "completed": trajectory["completed"],
+                "bankruptcy_flag": trajectory["ever_bankrupt"],
+                "quarters_completed": trajectory["quarters_completed"],
+                "completion_rate": trajectory["completion_rate"],
+                "terminal_score": trajectory["terminal_score"],
+                "total_reward": trajectory["total_reward"],
+                "mean_final_soil": trajectory["mean_final_soil"],
+                "terminal_cash": trajectory["terminal_cash"],
+                "tool_calls": trajectory["tool_calls"],
+                "invalid_tool_calls": trajectory["invalid_tool_calls"],
+            }
+        )
+    return metrics
+
+
 async def main_async(args: argparse.Namespace) -> None:
     tasks = await HostedFarmSession.list_tasks(args.split, openreward_env_id=args.openreward_env_id)
     if args.max_tasks:
@@ -46,19 +68,32 @@ async def main_async(args: argparse.Namespace) -> None:
         if baseline_name not in BASELINES:
             raise SystemExit(f"Unknown baseline {baseline_name!r}")
         rollouts = []
-        for task in tasks:
+        for index, task in enumerate(tasks, start=1):
+            print(
+                f"[{baseline_name}] split={args.split} task={index}/{len(tasks)} "
+                f"task_id={task.task_spec['task_id']}",
+                flush=True,
+            )
             rollouts.append(
                 await run_policy_rollout(
                     baseline_name=baseline_name,
                     split=args.split,
                     task_id=task.task_spec["task_id"],
                     openreward_env_id=args.openreward_env_id,
+                    capture_conversation=args.capture_conversation,
                 )
             )
+        per_task = per_task_metrics(rollouts)
         payload["baselines"][baseline_name] = {
             "summary": summarize(rollouts),
+            "per_task_metrics": per_task,
+            "per_task_metrics_path": str(trajectories_dir / f"{baseline_name}.metrics.json"),
             "trajectories_path": str(trajectories_dir / f"{baseline_name}.json"),
         }
+        (trajectories_dir / f"{baseline_name}.metrics.json").write_text(
+            json.dumps(per_task, indent=2),
+            encoding="utf-8",
+        )
         (trajectories_dir / f"{baseline_name}.json").write_text(
             json.dumps(rollouts, indent=2),
             encoding="utf-8",
@@ -77,6 +112,7 @@ def main() -> None:
     parser.add_argument("--openreward-env-id", default=OPENREWARD_ENV_ID)
     parser.add_argument("--max-tasks", type=int)
     parser.add_argument("--baseline", dest="baselines", action="append")
+    parser.add_argument("--capture-conversation", action="store_true")
     args = parser.parse_args()
     asyncio.run(main_async(args))
 
