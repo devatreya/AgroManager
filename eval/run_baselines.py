@@ -3,7 +3,10 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import sys
 from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from baselines import BASELINES
 from config import BASELINE_NAMES, OPENREWARD_ENV_ID, project_root

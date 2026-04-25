@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from pipeline.config import PIPELINE_META, SFT_DEFAULTS, training_summary_path
 from pipeline.modal_common import build_app, dump_json

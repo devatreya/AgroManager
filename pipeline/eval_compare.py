@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 import json
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from pipeline.config import EVAL_DEFAULTS, PIPELINE_META, comparison_path
 from pipeline.modal_common import build_app, dump_json

@@ -109,6 +109,8 @@ class WeatherRecord:
         year, quarter = year_and_quarter(self.episode_quarter)
         return {
             "episode_quarter": self.episode_quarter,
+            "year": year,
+            "quarter": quarter,
             "episode_year": year,
             "episode_quarter_of_year": quarter,
             "source_year": self.source_year,

@@ -27,6 +27,9 @@ def test_simulator_progression(sample_task):
     assert sim.state.quarter_index == 2
     assert result.finished is False
     assert len(result.plot_pnl) == 4
+    recent_weather = sim.weather_history(1)[0]
+    assert "year" in recent_weather
+    assert "quarter" in recent_weather
 
 
 def test_reward_logic_matches_formula(sample_task):
