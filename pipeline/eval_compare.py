@@ -74,12 +74,22 @@ async def run_eval_compare(
     from pipeline.policy_rollout import run_policy_rollout
 
     backend = LocalBackend(path=MODAL_VOLUME_MOUNTS["art"])
+    eval_internal_config = art_internal_model_config(mode="shared")
+    eval_internal_config["init_args"]["fast_inference"] = False
+    eval_internal_config["init_args"]["max_seq_length"] = 8192
+    eval_internal_config.setdefault("engine_args", {})
+    eval_internal_config["engine_args"].update(
+        {
+            "gpu_memory_utilization": 0.5,
+            "max_model_len": 8192,
+        }
+    )
     model = art.TrainableModel(
         name=MODEL_NAME,
         project=PROJECT_NAME,
         base_model=QWEN_MODEL_NAME,
         base_path=MODAL_VOLUME_MOUNTS["art"],
-        _internal_config=art_internal_model_config(mode="shared"),
+        _internal_config=eval_internal_config,
     )
     await model.register(backend)
 
