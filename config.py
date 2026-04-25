@@ -200,8 +200,6 @@ DEFAULT_DATA_DIR = Path("data") / "processed"
 ORWD_DATA_DIR = Path("/orwd_data")
 
 BASELINE_NAMES = (
-    "greedy_extractor",
-    "conservative_rotation",
     "weather_aware_rotation",
 )
 
